@@ -4,6 +4,10 @@ export const state = () => ({
 
 export const mutations = {
   commit (state, value) {
-    state.loggued = true
+    state.loggued = value
   }
+}
+
+export const getters = {
+  loggued: state => state.loggued
 }

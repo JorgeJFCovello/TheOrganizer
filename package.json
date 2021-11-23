@@ -14,7 +14,9 @@
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
     "dotenv": "^10.0.0",
+    "loadsh": "0.0.4",
     "nuxt": "^2.15.7",
+    "vue-i18n": "^8.26.7",
     "vuetify": "^2.5.5"
   },
   "devDependencies": {

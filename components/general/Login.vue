@@ -50,7 +50,9 @@ export default ({
   methods: {
 
     enterInSystem () {
-      this.$user.authenticate(this.username, this.password)
+      const response = this.$userService.authenticate(this.username, this.password)
+      if (!response) { return response }
+      this.$store.commit('loggued', true)
       this.$router.push('/Dashboard')
     }
   }

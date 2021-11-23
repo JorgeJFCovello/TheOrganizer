@@ -3,7 +3,7 @@ export const state = () => ({
 })
 
 export const mutations = {
-  commit (state, value) {
+  loggued (state, value) {
     state.loggued = value
   }
 }
